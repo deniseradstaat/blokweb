@@ -44,7 +44,7 @@ Home pagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Detail pagina
-<img src="images/Detailpagina.jepg" width="375px" alt="Op de detailpagina staat meer informatie over een game. Er staat een trailer en een introductie. De gebruiker kan op een leuke en interactieve manier kennis maken met het spel en de karakters.">
+<img src="images/Detailpagina.jpeg" width="375px" alt="Op de detailpagina staat meer informatie over een game. Er staat een trailer en een introductie. De gebruiker kan op een leuke en interactieve manier kennis maken met het spel en de karakters.">
  
 </details>
 
