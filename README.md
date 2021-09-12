@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Denise Radstaat
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Surface plane
  
 </details>
 
@@ -36,15 +36,15 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.nintendo.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Home pagina 
+<img src="images/Homepagina.jpeg" width="375px" alt="Dit is de homepagina van de site. Hier staat een overzicht van het laatste nieuws over de games en de Nintendo Switch. Er staan veel afbeeldingen op van de games waar de gebruiker op kan klikken. Dan komt de gebruiker op de detailpagina terecht van een game.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Detail pagina
+<img src="images/Detailpagina.jepg" width="375px" alt="Op de detailpagina staat meer informatie over een game. Er staat een trailer en een introductie. De gebruiker kan op een leuke en interactieve manier kennis maken met het spel en de karakters.">
  
 </details>
 
