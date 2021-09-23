@@ -88,7 +88,9 @@ samen met je groepje opstellen
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| ..            | ...                | ...          | ...              |
+
+In hoeverre moet de site af zijn? Wat is de planning?
 
 
 ### Verslag van meeting
@@ -98,6 +100,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - punt 2
 - nog een punt
 - ...
+
+We hebben het tijdens het voortgangsgesprek voornamelijk over de planning gehad. We moeten nu ongeveer een site hebben met een header, footer en wat content. Dat betekent dat ik achterloop en ik binnenkort even wat meer tijd moet besteden aan mijn website. De docent gaf ons de tip om de opdrachten die we tijdens de les doen meteen te verwerken in mijn website. Dat scheelt tijd, omdat ik op het moment dat ik de opdrachten doe al in de stof zit.
+
+Verder heb ik mijn website van wat ik tot nu toe heb laten zien aan de docent. De HTML was goed, alhoewel ik de afbeeldingen nog in articles kon zetten. Ook kan ik buttons zetten onder de afbeelding, zodat de afbeelding klikbaar wordt. Dan kan ik de button in de afbeelding positioneren, zoals we in de les geoefend hebben.
+
+Verder viel het onze docent op bij mijn groepsgenoten dat ze veel verschillende classlists hebben gebruikt in de CSS. De docent zei dat we de andere selectors moeten uitproberen en we niet alleen verschillende classlists kunnen gebruiken. Hier ga ik dan ook op letten als ik ga beginnen aan de CSS.
 
 </details>
 

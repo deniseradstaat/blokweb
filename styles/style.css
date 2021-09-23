@@ -3,3 +3,74 @@
   box-sizing:border-box;  
 }
 
+/***********/
+/* KLEUREN */
+/***********/
+
+:root {
+    --main-color: #E60012;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/**********/
+/* HEADER */
+/**********/
+
+header ul { 
+    background: var(--main-color);
+
+    display: flex;
+    justify-content: right;
+    
+   list-style-type: none;
+   padding: 0; 
+   /* Deze staat op 0, omdat een list van zichzelf een margin-left van 40px heeft. */
+}
+
+
+
+header li {
+    display:flex;
+    margin: 0.5em;
+}
+
+li:first-of-type {
+    display: flex;
+    flex-grow: 1;
+    /* Flex grow zorgt ervoor dat het de beschikbare ruimte overneemt. En omdat die alleen op het eerste item staat,
+    pakt die alleen de eerste. En de verhouding is 1, omdat die andere toch niks hebben. */
+}
+
+header a {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+header li img {
+    margin: 0.5em;
+    width: 20px;
+    height: 20px;
+}
+
+header li:first-of-type img {
+    height: 30px;
+    width: auto;
+}
+/* We spreken hier aan: de img in de eerste li van de header. */
+
+/**********/
+/* GAMES */
+/**********/
+
