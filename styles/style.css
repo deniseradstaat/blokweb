@@ -9,6 +9,7 @@
 
 :root {
     --main-color: #E60012;
+    --footer-color: #BF0010;
 }
 
 body{
@@ -27,9 +28,8 @@ header ul {
     
    list-style-type: none;
    padding: 0; 
-   /* Deze staat op 0, omdat een list van zichzelf een margin-left van 40px heeft. */
+   /* De padding staat op 0, omdat een list van zichzelf een margin-left van 40px heeft. */
 }
-
 
 
 header li {
@@ -37,11 +37,12 @@ header li {
     margin: 0.5em;
 }
 
-li:first-of-type {
-    display: flex;
+header li:first-of-type {
     flex-grow: 1;
     /* Flex grow zorgt ervoor dat het de beschikbare ruimte overneemt. En omdat die alleen op het eerste item staat,
-    pakt die alleen de eerste. En de verhouding is 1, omdat die andere toch niks hebben. */
+    pakt die alleen de eerste. En de verhouding is 1, omdat die andere toch niks hebben.
+    
+    Waarom is hier een display flex nodig: */
 }
 
 header a {
@@ -52,11 +53,29 @@ header a {
     color: white;
     text-decoration: none;
     font-size: 10px;
+
+    transition: 500ms;
 }
 
 a:hover {
     text-decoration-line: underline;
 }
+
+header a:hover img{
+    transform: rotate(360deg);
+    transition: 500ms;
+}
+
+header a:focus img{
+    transform: scale(2);
+    transition: 500ms;
+
+}
+
+header a:focus{
+    color: black;
+}
+
 
 header li img {
     margin: 0.5em;
@@ -74,7 +93,94 @@ header li:first-of-type img {
 /* GAMES */
 /**********/
 
+section:first-of-type {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* Hier kun je het aantal rijen mee bepalen. Alleen blijven ze de standaard maat die de afbeelding heeft. 
+    Als ik ze een kleiner getal geef, dan pakken ze niet de hele afbeelding, maar een deel. */
+    grid-template-rows: auto auto;
+    grid-gap: 0.5em;
+}
+
+
+
+/* Hier plaats ik de articles in het grid */
+section:first-of-type article:first-of-type{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+section:first-of-type article:nth-of-type(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    }
+section:first-of-type article:nth-of-type(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+
+section:first-of-type article:nth-of-type(4){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    }
+
+section:first-of-type a{
+    display: block;
+    position: relative;
+}
+    
+/* Algemene regel voor alle items in het grid, zodat de foto mooi past in de article */
+article img{
+ display: block; 
+ width: 100%;
+}
+
+section:first-of-type article h2{
+    position: absolute;
+    bottom: 0;
+    
+    margin: 0;
+    padding: 0.3em;
+    width: 100%;
+    height: 10%;
+    
+    color: white;
+    background-color:rgba(0,0,0, 0.6);
+}
+
+
 /**********/
 /* FOOTER */
 /**********/
 
+footer ul {
+    background: var(--footer-color);
+
+    display: flex;
+    justify-content: right;
+
+    list-style-type: none;
+    padding: 1em 0;
+}
+
+footer li {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
