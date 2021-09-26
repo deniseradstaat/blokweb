@@ -25,6 +25,8 @@ header ul {
 
     display: flex;
     justify-content: right;
+    flex-wrap: wrap;
+    
     
    list-style-type: none;
    padding: 0; 
@@ -93,56 +95,21 @@ header li:first-of-type img {
 /* GAMES */
 /**********/
 
-section:first-of-type {
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    /* Hier kun je het aantal rijen mee bepalen. Alleen blijven ze de standaard maat die de afbeelding heeft. 
-    Als ik ze een kleiner getal geef, dan pakken ze niet de hele afbeelding, maar een deel. */
-    grid-template-rows: auto auto;
-    grid-gap: 0.5em;
-}
-
-
-
-/* Hier plaats ik de articles in het grid */
-section:first-of-type article:first-of-type{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-section:first-of-type article:nth-of-type(2){
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+/* MOBIEL */
+section:first-of-type{
+    width:100%;
+    display:flex;
+    flex-direction:column;
     
-    }
-section:first-of-type article:nth-of-type(3){
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    }
+}
 
-section:first-of-type article:nth-of-type(4){
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    }
-
+section:first-of-type article{
+    margin: 1em;
+}
 section:first-of-type a{
     display: block;
     position: relative;
-}
-    
-/* Algemene regel voor alle items in het grid, zodat de foto mooi past in de article */
-article img{
- display: block; 
- width: 100%;
+    /* dubbel */
 }
 
 section:first-of-type article h2{
@@ -157,7 +124,137 @@ section:first-of-type article h2{
     color: white;
     background-color:rgba(0,0,0, 0.6);
 }
+    
 
+article img{
+    display: block; 
+    width: 100%;
+    }
+
+/* Breakpoint voor iPad/Tablet */
+
+@media (min-width: 600px){
+    body{
+        background-color:lavenderblush; 
+    }
+    section:first-of-type {
+        width: 100vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 45% 45%;
+
+        grid-template-rows: auto auto auto;
+        grid-gap: 0.5em;
+    }
+
+     section:first-of-type article {
+        margin: 0;
+    }
+    section:first-of-type article:first-of-type{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    section:first-of-type article:nth-of-type(2){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+}
+    section:first-of-type article:nth-of-type(3){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    section:first-of-type article:nth-of-type(4){
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        }
+    }
+
+/* Breakpoint voor desktop */
+
+@media (min-width:1050px) {
+
+    body{
+        background-color: hotpink; 
+    }
+
+    section:first-of-type {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        /* Hier kun je het aantal rijen mee bepalen. Alleen blijven ze de standaard maat die de afbeelding heeft. 
+        Als ik ze een kleiner getal geef, dan pakken ze niet de hele afbeelding, maar een deel. */
+        grid-template-rows: auto auto;
+        grid-gap: 0.5em;
+    }
+
+
+
+    /* Hier plaats ik de articles in het grid */
+    section:first-of-type article:first-of-type{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    section:first-of-type article:nth-of-type(2){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        
+        }
+    section:first-of-type article:nth-of-type(3){
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        }
+
+    section:first-of-type article:nth-of-type(4){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        }
+
+    section:first-of-type a{
+        display: block;
+        position: relative;
+        /* dubbel */
+    }
+        
+    /* Algemene regel voor alle items in het grid, zodat de foto mooi past in de article */
+    article img{
+    display: block; 
+    width: 100%;
+    /* dubbel */
+    }
+
+    section:first-of-type article h2{
+        position: absolute;
+        bottom: 0;
+        
+        margin: 0;
+        padding: 0.3em;
+        width: 100%;
+        height: 10%;
+        
+        color: white;
+        background-color:rgba(0,0,0, 0.6);
+        /* dubbel */
+    }
+
+}
 
 /**********/
 /* FOOTER */
