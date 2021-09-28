@@ -16,8 +16,16 @@ body{
   font-family: sans-serif;
 }
 
+body.mario {
+    background-color: #FFD9D9;
+}
+
 body.luigi {
-    background: #C7FFB6;
+    background-color: #C7FFB6;
+}
+
+body.peach {
+    background-color: #FFE1F3;
 }
 
 /**********/
@@ -37,8 +45,16 @@ header ul {
    /* De padding staat op 0, omdat een list van zichzelf een margin-left van 40px heeft. */
 }
 
+.mario header ul {
+    background-color: #000ABA;
+}
+
 .luigi header ul { 
     background-color: green;
+}
+
+.peach header ul {
+    background-color: hotpink;
 }
 
 header li {
@@ -220,8 +236,6 @@ article img{
         grid-gap: 0.5em;
     }
 
-
-
     /* Hier plaats ik de articles in het grid */
     section:first-of-type article:first-of-type{
         grid-column-start: 1;
@@ -338,8 +352,16 @@ footer ul {
     padding: 1em 0;
 }
 
+.mario footer ul {
+    background-color: #000ABA;
+}
+
 .luigi footer ul {
     background-color: green;
+}
+
+.peach footer ul {
+    background-color: hotpink;
 }
 
 footer li {
