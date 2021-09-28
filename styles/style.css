@@ -329,8 +329,8 @@ article img{
         margin: 1em;
     }
     Section:last-of-type img {
-        width: 100%;
-        height: 100px;
+        width: 50%;
+        height: auto;
     }
 
     Section:last-of-type img:hover {
