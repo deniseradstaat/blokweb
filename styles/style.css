@@ -96,11 +96,20 @@ header li:first-of-type img {
 /**********/
 
 /* MOBIEL */
+
+h1, h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Miss even vragen of er een betere manier is om dit in het midden te zetten? */
+
 section:first-of-type{
     width:100%;
     display:flex;
+    justify-content: center;
     flex-direction:column;
-    
 }
 
 section:first-of-type article{
@@ -124,7 +133,6 @@ section:first-of-type article h2{
     color: white;
     background-color:rgba(0,0,0, 0.6);
 }
-    
 
 article img{
     display: block; 
@@ -135,7 +143,7 @@ article img{
 
 @media (min-width: 600px){
     body{
-        background-color:lavenderblush; 
+        background-color: white; 
     }
     section:first-of-type {
         width: 100vw;
@@ -183,7 +191,15 @@ article img{
 @media (min-width:1050px) {
 
     body{
-        background-color: hotpink; 
+        background-color: white;
+    }
+
+    h1, h2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+
+        margin-left: 75px;
     }
 
     section:first-of-type {
@@ -255,6 +271,29 @@ article img{
     }
 
 }
+
+/**********/
+/* NIEUWS */
+/**********/
+
+    Section:last-of-type {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    Section:last-of-type article {
+        width: 330px;
+        margin: 1em;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    Section:last-of-type img {
+        height: 100%;
+    }
+
 
 /**********/
 /* FOOTER */
