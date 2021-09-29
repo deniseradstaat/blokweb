@@ -121,15 +121,19 @@ header li:first-of-type img {
 
 /* MOBIEL */
 
-h1, h2 {
+
+h1 {
+    visibility: hidden;
+}
+
+h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 /* Miss even vragen of er een betere manier is om dit in het midden te zetten? */
 
-section:first-of-type{
+section:first-of-type {
     width:100%;
     display:flex;
     justify-content: center;
@@ -179,6 +183,10 @@ article img{
         grid-gap: 0.5em;
     }
 
+    main {
+        padding: 0 1em;
+    }
+
      section:first-of-type article {
         margin: 0;
     }
@@ -218,12 +226,12 @@ article img{
         background-color: white;
     }
 
-    h1, h2 {
+    h2 {
         display: flex;
         flex-direction: row;
         justify-content: left;
 
-        margin-left: 75px;
+        margin-left: 4.5%;
     }
 
     section:first-of-type {
@@ -317,26 +325,32 @@ article img{
         height: 300px;
     }
 
+    Section:nth-of-type(2) article h3 {
+        width: 300px;
+    }
+
 /**********/
 /* THEMA */
 /**********/
     Section:last-of-type {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: flex-end;
     }
 
     section:last-of-type article {
         margin: 1em;
+        padding: 0 3em;
     }
     Section:last-of-type img {
-        width: 50%;
-        height: auto;
-        margin: 0;
+        width: auto;
+        height: 10em;
+        margin: 0 0 1em;
     }
 
     Section:last-of-type img:hover {
-        transform: scale(2);
+        transform: scale(1.5);
         transition: 500ms;
     }
 
