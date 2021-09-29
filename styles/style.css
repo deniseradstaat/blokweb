@@ -313,7 +313,8 @@ article img{
     }
 
     Section:nth-of-type(2) img {
-        height: 100%;
+        width: 300px;
+        height: 300px;
     }
 
 /**********/
@@ -329,8 +330,9 @@ article img{
         margin: 1em;
     }
     Section:last-of-type img {
-        width: 100%;
+        width: 50%;
         height: auto;
+        margin: 0;
     }
 
     Section:last-of-type img:hover {
