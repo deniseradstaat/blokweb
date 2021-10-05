@@ -58,7 +58,7 @@ Detail pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/Schets1.jpeg" alt="Schets 1.">
+<img src="images/Schets1.jpeg" width="300px" height="300px">
 Een schets die ik tijdens de les gemaakt heb voor de homepagina van mijn website.
 
 ### dynamisch deel (bijv menu): 
