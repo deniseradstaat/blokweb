@@ -58,11 +58,11 @@ Detail pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/Schets1.jpeg">
+<img src="images/Schets1.jpeg" alt="Schets 1.">
 Een schets die ik tijdens de les gemaakt heb voor de homepagina van mijn website.
 
 ### dynamisch deel (bijv menu): 
-<img src="images/Schets2.jpeg">
+<img src="images/Schets2.jpeg" alt="Schets 2.">
 Een schets die laat zien hoe ik de content wil verdelen op een iPad- en desktop formaat.
 
 </details>
