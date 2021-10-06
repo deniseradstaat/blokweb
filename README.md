@@ -192,15 +192,17 @@ De docent heeft mij geholpen met mijn thema's. Ik heb nu een classList.remove to
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+In het begin ging mijn proces wat moeizaam, omdat ik weinig tijd had om de opdrachten te maken. Daardoor kreeg ik de stof niet goed mee en liep ik achter. Later toen ik begon aan het maken van mijn site, merkte ik dat ik het niet goed begreep. Ik heb eerst veel onderzoek gedaan en ben toen begonnen met het maken van mijn site. Het ging gelukkig goed en steeds makkelijker. Als ik vast liep, ging ik vaak een paar stappen terug om te kijken wat er mis ging. Daar werd ik ook steeds beter in. Ik heb de afgelopen 5 weken heel veel geleerd over het vak en ik ben erachter gekomen dat ik het ook erg leuk vond om te doen. Ik had nog veel ideeën voor mijn site, maar helaas niet genoeg tijd gehad om ze allemaal toe te voegen aan mijn site.
+
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+<img src="images/eind1.png">
+<img src="images/eind2.png">
+<img src="images/eind3.png">
+<img src="images/eind4.png">
 
 </details>
-
-
-
-
 
 ## Bronnenlijst
 
@@ -217,5 +219,7 @@ Bron gebruikt voor thema icoon van Mario.
 Bron gebruikt voor thema icoon van Luigi.
 4. Super Mario Wiki (z.d.) File:Peach switch icon.png [Foto] Geraadpleegd via: https://www.mariowiki.com/File:Peach_switch_icon.png
 Bron gebruikt voor thema icoon van Peach.
+5. CSS Tricks (z.d.) Transform. Geraadpleegd via: https://css-tricks.com/almanac/properties/t/transform/
+Bron gebruikt om deze functie toe te passen op mijn website.
 
 </details>
